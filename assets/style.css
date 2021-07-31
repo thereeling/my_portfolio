@@ -1,0 +1,113 @@
+/* Universal CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-gray: #2C3531;
+    --dark-teal: #116466;
+    --dark-beige: #D9B08C;
+    --light-beige: #FFCB9A;
+    --light-blue: #D1E8E2;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--dark-gray);
+}
+
+/* Header CSS 
+
+    -Extend h1 container to left side of screen
+
+*/
+
+header {
+    display: flex;
+    padding: 20px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: var(--dark-teal);
+    z-index: 9999;
+}
+
+#brand {
+    color: black;
+    background-color: var(--light-blue);
+    padding: 10px 10px 10px 125px;
+    margin-left: -80px;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 50px;   
+}
+
+header nav {
+    margin: 20px 0;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 30px;
+    font-size: 1.8vw;
+    color: var(--light-beige);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--light-blue);
+    color: var(--dark-gray);
+    border-radius: 15px;
+    height: 145px;
+  }
+
+
+  /* Hero CSS */
+
+  #hero {
+      background-image: linear-gradient(to top right, var(--dark-beige), var(--dark-gray), black);
+      height: 50vh;
+      display: flex;
+      flex-wrap: wrap;
+      align-items:flex-end;
+      justify-content: flex-end;
+       }
+
+  #hero h2 {
+      margin: 50px 100px;
+      padding: 15px;
+      font-size: 40px;
+      background-color: var(--light-blue);
+      border-radius: 5px;
+  }
+
+/* Main CSS */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-me {
+    
+}
+
