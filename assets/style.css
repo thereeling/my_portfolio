@@ -97,29 +97,30 @@ header nav ul {
   }
 
 /* Main CSS */
-
+main {
+    margin-top: 150px;
+    color: whitesmoke;
+}
 .content-section {
-    display: flex;
-    flex-direction: row;
-    height: 300px;
-    
-    
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 120px;
 }
 
 .content-header {
-    font-size: 25px;
-    border: solid;
-    justify-self: flex-end;
-    align-self: stretch;
-    width: 25%;
-
-    
+   justify-self: end;
+   font-size: 35px;
+   padding: 0 30px 100% 0;
+   margin: 0 -30px -200px 0;
+   border-right: solid var(--dark-teal);   
 }
 
 .content {
-    width: 75%;
-    justify-self: center;
-    align-items: center;
+    align-self: center;
 }
 
-
+#about-me p {
+    font-size: 20px;
+}
