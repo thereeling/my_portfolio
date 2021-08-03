@@ -98,29 +98,104 @@ header nav ul {
 
 /* Main CSS */
 main {
-    margin-top: 150px;
     color: whitesmoke;
 }
 .content-section {
     display: grid;
     grid-template-columns: 20% auto;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-items: center;
+    grid-template-rows: auto; 
     column-gap: 120px;
+    margin-top: 100px;
+    
 }
 
 .content-header {
    justify-self: end;
    font-size: 35px;
-   padding: 0 30px 100% 0;
-   margin: 0 -30px -200px 0;
+   padding-right: 50px;
+   margin-right: -50px;
    border-right: solid var(--dark-teal);   
 }
 
 .content {
-    align-self: center;
+    
 }
+
+/* About Me CSS */
 
 #about-me p {
     font-size: 20px;
 }
+
+/* Work CSS */
+
+
+.work-grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "first first" 
+    "second third"
+    "fourth fifth";
+    row-gap: 30px;
+    column-gap: 20px;
+    justify-content: center; 
+}
+
+.work-example {
+    border: solid var(--light-blue);
+    border-radius: 4px;
+    padding: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.work-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.work-example-description {
+    color: var(--dark-gray);
+    background-color: var(--light-blue);
+    font-size: 150%;
+    margin-right: 80%;
+    margin-left: -8px;
+    padding-left: 20px;
+    border-radius: 4px;
+    
+}
+img {
+    opacity: 0;
+}
+
+#first-project {
+    grid-area: first;
+    background-image: url(./images/Run_Buddy_SS.PNG);
+    
+}
+
+#second-project {
+    grid-area: second;
+    background-image: url(./images/PLACEHOLDER.svg);
+}
+
+#third-project {
+    grid-area: third;
+    background-image: url(./images/PLACEHOLDER.svg);
+}
+
+#fourth-project {
+    grid-area: fourth;
+    background-image: url(./images/PLACEHOLDER.svg);
+}
+
+#fifth-project {
+    grid-area: fifth;
+    background-image: url(./images/PLACEHOLDER.svg);
+}
+
+
