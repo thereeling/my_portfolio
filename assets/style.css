@@ -23,11 +23,7 @@ body {
     background-color: var(--dark-gray);
 }
 
-/* Header CSS 
-
-    -Extend h1 container to left side of screen
-
-*/
+/* Header CSS */
 
 header {
     display: flex;
@@ -102,12 +98,28 @@ header nav ul {
 
 /* Main CSS */
 
-main {
+.content-section {
     display: flex;
-    flex-wrap: wrap;
-}
-
-#about-me {
+    flex-direction: row;
+    height: 300px;
+    
     
 }
+
+.content-header {
+    font-size: 25px;
+    border: solid;
+    justify-self: flex-end;
+    align-self: stretch;
+    width: 25%;
+
+    
+}
+
+.content {
+    width: 75%;
+    justify-self: center;
+    align-items: center;
+}
+
 
