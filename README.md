@@ -5,7 +5,7 @@ This project challenged my HTML and CSS ability to make a responsive webpage.
 
 
 
-![image](./assets\images\Capture.PNG)  
+![Capture](assets/images/Capture.PNG)  
 
 
 Link to deployed app: https://thereeling.github.io/my_portfolio/
