@@ -110,14 +110,15 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		/* border-bottom: dotted 1px; */
+		color: #1f1815;
+		font-weight: 300;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color:  #b4d7f5 !important;
 			text-decoration: none;
 		}
 
@@ -2172,7 +2173,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 1px #efefef;
 				padding: 0.5em 0;
 			}
 
@@ -2606,7 +2607,7 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 25%;
 	}
@@ -2624,7 +2625,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: 0 0 -3em 0;
 		}
 
 		#header strong, #header b {
@@ -2647,6 +2648,9 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+		#nav {
+			margin-top: 1.0em;
+		}
 
 /* Footer */
 
@@ -2662,7 +2666,7 @@ input, select, textarea {
 		color: #1f1815;
 		font-size: 0.8em;
 		list-style: none;
-		margin: 1em 0 0 0;
+		/* margin: 1em 0 0 0; */
 		padding: 0;
 	}
 
@@ -3016,18 +3020,18 @@ input, select, textarea {
 					}
 
 				#header > .inner {
-					margin-bottom: 0;
+					margin-bottom: -3em;
 				}
 
 		/* Footer */
 
-			#footer .copyright li {
+			/* #footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;
-			}
+			} */
 
 		/* Main */
 
@@ -3055,6 +3059,7 @@ input, select, textarea {
 			ul.icons li .icon {
 				font-size: 1.25em;
 			}
+
 
 		/* Header */
 
@@ -3084,7 +3089,8 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+				background-color: #787878;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;

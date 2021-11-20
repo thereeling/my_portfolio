@@ -1,20 +1,14 @@
 # Portfolio using HTML and CSS
 
 
-This project challenged my HTML and CSS ability to make a responsive webpage.  
+This is my portfolio for software development!  I showcase a few of my projects along with technologies I use, a little about myself, as well as my contact info and resume.  I customized a design provided by https://html5up.net/ .  
 
 
 
-![Capture](assets/images/Capture.PNG)  
+![Capture](images/Portfolio_ss.PNG)  
 
 
-Link to deployed app: https://thereeling.github.io/my_portfolio/
+Link to my portfolio:
+https://nick-giuliani.com/
 
-
-## Techniques and methods used:  
-
--Semantic HTML and CSS, following logical and accessible guidelines.  
--Links leading to parts of the page.  
--A responsive layout using CSS properties (flex, grid, media q's).  
--Pseudo elements for hover effects.
 
