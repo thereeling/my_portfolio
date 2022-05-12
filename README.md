@@ -5,10 +5,11 @@ This is my portfolio for software development!  I showcase a few of my projects 
 
 
 
-![Capture](images/Portfolio_ss.PNG)  
+![Capture](images/Portfolio_ss.png)  
 
 
-Link to my portfolio:
+## Link to my portfolio:
+
 https://nick-giuliani.com/
 
 
