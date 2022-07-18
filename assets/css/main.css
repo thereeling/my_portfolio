@@ -97,7 +97,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #e7e7e7;
+		color: #e5e9f0;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -110,14 +110,14 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		/* border-bottom: dotted 1px; */
-		color: #1f1815;
-		font-weight: 300;
+		color: #d8dee9;
+		font-weight: bolder;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color:  #b4d7f5 !important;
+			color:  #88c0d0 !important;
 			text-decoration: none;
 		}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #eceff4;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2173,7 +2173,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #efefef;
+				border-top: solid 1px #4c566a;
 				padding: 0.5em 0;
 			}
 
@@ -2598,7 +2598,7 @@ input, select, textarea {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
-		background-color: #787878;
+		background-color: #3b4252;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2629,16 +2629,16 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #eceff4;
 			font-size: 1.2em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #d8dee9;
 		}
 
 		#header h1 {
-			color: #1f1815;
+			color: #d8dee9;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2659,11 +2659,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: #1f1815;
+			color: #d8dee9;
 		}
 
 	#footer .copyright {
-		color: #1f1815;
+		color: #d8dee9;
 		font-size: 0.8em;
 		list-style: none;
 		/* margin: 1em 0 0 0; */
@@ -2671,7 +2671,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px #1f1815;
+			border-left: solid 1px #4c566a;
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -2695,11 +2695,11 @@ input, select, textarea {
 		/* max-width: 54em; */
 		padding: 8em 4em 4em 4em;
 		/* width: calc(100% - 35%); */
-		background-color: var(--nord1);
+		background-color: rgb(36, 41, 51);
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #4c566a;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
